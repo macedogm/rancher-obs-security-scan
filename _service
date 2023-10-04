@@ -1,0 +1,4 @@
+<services>
+  <service name="docker_label_helper" mode="buildtime">
+  </service>
+</services>
