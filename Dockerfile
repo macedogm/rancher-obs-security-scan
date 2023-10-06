@@ -1,8 +1,8 @@
 # Final micro image
-FROM bci/bci-micro:latest AS micro
+FROM bci/bci-micro:15.5 AS micro
 
 # Temporary build stage
-FROM bci/golang:stable AS builder
+FROM bci/golang:1.21 AS builder
 
 # Define build arguments
 ARG kube_bench_version=0.6.17
