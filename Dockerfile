@@ -1,3 +1,5 @@
+#!BuildTag: security-scan:latest
+
 # Final micro image
 FROM bci/bci-micro:15.5 AS micro
 
